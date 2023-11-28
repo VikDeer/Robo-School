@@ -113,7 +113,8 @@ hr {
 .band .post1 div, .post3 div {
    margin-bottom: 30px;
    width: 48%;
-   height: 420px;
+   /* height: 420px; */
+   padding-bottom: 15px;
 }
 .band .post1 {
    margin-top: 60px;
@@ -121,7 +122,8 @@ hr {
 }
 
 .band .post2 {
-   height: 570px;
+   /* height: 570px; */
+   padding-bottom: 25px;
    margin-bottom: 30px;
 }
 .band .post2 div {
@@ -138,7 +140,7 @@ hr {
    font-size: 90%;
 }
 .band .post2 img {
-   height: 62.21%;
+   height: 50%;
 }
 
 .band .slider {
@@ -189,7 +191,7 @@ hr {
    margin-bottom: 70px;
 }
 .sidebar .author {
-   height: 385px;
+   /* height: 385px; */
    text-align: center;
 }
 .sidebar .author img {
@@ -232,7 +234,8 @@ hr {
    height: 55.75%;
 }
 .featured div {
-   height: 287px;
+   /* height: 287px; */
+   padding-bottom: 15px;
    margin-bottom: 30px;
    text-align: center;
 }
