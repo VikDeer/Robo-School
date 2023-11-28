@@ -52,13 +52,11 @@
       margin: auto;
    }
    .band .post1 div, .post3 div {
-      height: 300px;
-   }
-   .band .post2 {
-      height: 500px;
+      /* height: 330px; */
+      padding-bottom: 15px;
    }
    .band .post2 img {
-      height: 40%;
+      height: 20%;
    }
    .band .post2 .short-descr {
       font-size: 110%;
@@ -76,15 +74,13 @@
       width: 80%;
       margin: auto;
    }
-   .sidebar .author {
-      height: 400px;
-   }
+
    .sidebar .author img {
-      height: 60%;
+      height: 30%;
    }
 
-   .sidebar .featured div {
-      height: 350px;
+   .sidebar .featured div img{
+      height: 20%;
    }
 
    .sidebar .social button {
@@ -109,13 +105,18 @@
       width: 100%;
    }
    footer .menu {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: center;
+      row-gap: 10px;
       width: 100%;
       padding: 0;
    }
    footer .menu a {
       display: block;
       border: #E5E5E5 1px solid;
-      padding: 10px 3%;
+      padding: 10px 15px;
    }
    footer .menu a:hover {
       border: #C9A96E 1px solid;
