@@ -56,7 +56,7 @@
       padding-bottom: 15px;
    }
    .band .post2 img {
-      height: 20%;
+      /* height: 20%; */
    }
    .band .post2 .short-descr {
       font-size: 110%;
@@ -76,15 +76,15 @@
    }
 
    .sidebar .author img {
-      height: 30%;
+      height: 100%;
    }
 
    .sidebar .featured div img{
-      height: 25%;
+      height: 100%;
    }
 
    .sidebar .social button {
-      font-size: 100%;
+      /* font-size: 80%; */
    }
 
    .sidebar .tags button {
