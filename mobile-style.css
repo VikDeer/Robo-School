@@ -1,0 +1,129 @@
+@media (max-width: 550px) {
+
+   .menu {
+      margin: 0;
+      padding: 32px 5%;
+      align-items: center;
+   }
+   .menu .mobile-menu {
+      display: block!important;
+      border: #E5E5E5 1px solid;
+      padding: 10px 25px;
+   }
+   .menu ul:hover li {
+      display: block;
+   } 
+   .menu ul {
+      position: absolute;
+      top:32px;
+      right: 5%;
+   }
+   .menu .home {
+      flex-direction: column;
+   }
+   .menu .home li {
+      border: #E5E5E5 1px solid;
+      background-color: white;
+      padding: 10px 25px;
+      /* position: absolute; */
+      display: none;
+   }
+   .menu .home li:hover, .menu .home li:hover a {
+      background-color: #171717;
+      color: #C9A96E;
+   }
+   
+   .menu .home li:nth-child(2):hover, .menu .home li:nth-child(2):hover a {
+      background-color: #C9A96E;
+   } 
+
+   .hero {
+      height: 350px;
+      background-size: cover;
+      background-position: 50% 75%;
+   }
+   .hero div {
+      margin-left: 5%;
+      padding-top: 10%;
+   }
+
+   .band {
+      max-width: 90%;
+      margin: auto;
+   }
+   .band .post1 div, .post3 div {
+      height: 300px;
+   }
+   .band .post2 {
+      height: 500px;
+   }
+   .band .post2 img {
+      height: 40%;
+   }
+   .band .post2 .short-descr {
+      font-size: 110%;
+   }
+
+   .band .slider {
+      margin-right: auto; margin-left: auto;
+      width: 95%;
+   }
+
+
+   .sidebar {
+      position: relative;
+      top: 0; right: 0;
+      width: 80%;
+      margin: auto;
+   }
+   .sidebar .author {
+      height: 400px;
+   }
+   .sidebar .author img {
+      height: 60%;
+   }
+
+   .sidebar .featured div {
+      height: 350px;
+   }
+
+   .sidebar .social button {
+      font-size: 100%;
+   }
+
+   .sidebar .tags button {
+      padding: 15px 25px;
+      font-size: 100%;
+   }
+
+   .follow div {
+      justify-content: space-around;
+      row-gap: 5px;
+   }
+   .follow img {
+      width: 48%;
+   }
+
+
+   footer {
+      width: 100%;
+   }
+   footer .menu {
+      width: 100%;
+      padding: 0;
+   }
+   footer .menu a {
+      display: block;
+      border: #E5E5E5 1px solid;
+      padding: 10px 3%;
+   }
+   footer .menu a:hover {
+      border: #C9A96E 1px solid;
+      background-color: #C9A96E;
+      color:#171717;
+   }
+
+   footer .social {
+      width: 90%;
+   }
+}
