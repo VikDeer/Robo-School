@@ -76,11 +76,11 @@
    }
 
    .sidebar .author img {
-      height: 100%;
+      height: 25%;
    }
 
    .sidebar .featured div img{
-      height: 100%;
+      height: 20%;
    }
 
    .sidebar .social button {
